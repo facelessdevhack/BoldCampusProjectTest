@@ -91,4 +91,5 @@ body {
 #sticky-footer {
     flex-shrink: none;
     width: 100%;
+    margin-top: 2rem;
   }
