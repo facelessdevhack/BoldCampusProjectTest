@@ -87,6 +87,16 @@ body {
 #imgs {
     padding: 2rem 2rem 0rem 2rem;
 }
+#card {
+    /* margin-left: 1rem; */
+    border: hidden;
+
+}
+#card1 {
+
+    border: hidden;
+    /* margin-left: 1rem; */
+}
 
 #sticky-footer {
     flex-shrink: none;
