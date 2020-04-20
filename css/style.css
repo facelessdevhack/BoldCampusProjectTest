@@ -50,7 +50,7 @@ body {
 }
 .navbar-collapse .navbar-nav>li>a:hover,
 .navbar-collapse .navbar-nav>li>a:focus{
-    padding-left: 1rem;
+    padding: .5rem;
     background-color: #620be4;
 }
 
