@@ -1,0 +1,94 @@
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+.custom-toggler.navbar-toggler { 
+    border-color: black; 
+} 
+
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0 , 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+#navlinks {
+    margin-right: 5rem;
+}
+#deactive {
+    color: #e4a30b;
+    text-decoration: none;
+    margin-right: 10rem;
+}
+#active-navlinks {
+    margin-left: 1rem;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+#active-navlinks:hover {
+    background-color: #620be4;
+    border-radius: 10px;
+}
+#welcomeSlogan {
+    text-align: center;
+    background-color: #e4a30b;
+}
+
+#jumboHeading {
+    font-size: 80px;
+    color: whitesmoke;
+}
+
+#navbar {
+    background-color: #e4a30b;
+    width: 100%;
+}
+
+#learnMore {
+    border: none;
+    border-radius: 20px;
+    /* background-color: white; */
+    margin-top: 2rem;
+}
+
+#serviceHeading {
+    color: #e4a30b;
+    font-size: 60px;
+}
+
+#about {
+    padding-top: 3rem;
+    font-size: 25px;
+}
+#services {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 50px;
+    color: #e4a30b;
+}
+
+#cards{
+    border: hidden;
+}
+
+#joinUs {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+#joinUs h1 {
+    color: #e4a30b;
+    font-size: 50px;
+}
+
+#imgs {
+    padding: 2rem 2rem 0rem 2rem;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+    width: 100%;
+  }

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title>Bold Compass</title>
+  </head>
+  <body>
+    <div>
+      <nav id='navbar' class="navbar navbar-expand-lg">
+
+        <!--  Show this only on mobile to medium screens  -->
+          <a class="navbar-brand d-lg-none" href="#">
+            <img src="./Assets/Logo/BOLD COMPASS LOGO.png" width="200" height="100" class="image-fluid" alt="logo">
+          </a>
+        
+          <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+        <!--  Use flexbox utility classes to change how the child elements are justified  -->
+          <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+        
+            <ul id='deactive' class="navbar-nav">
+              <li class="nav-item">
+                <p>Link</p>
+              </li>
+              <li class="nav-item">
+                <p>Link</p>
+              </li>
+              <li class="nav-item">
+                <p>Link</p>
+              </li>
+              <li class="nav-item">
+                <p>Link</p>
+              </li>
+            </ul>
+            
+            
+        <!--   Show this only lg screens and up   -->
+            <div class="navbar-brand d-none d-lg-block">
+              <a class="navbar-brand" href="#">
+                <img src="./Assets/Logo/BOLD COMPASS LOGO.png" width="200" height="100" alt="">
+              </a>  
+            </div>
+            
+            
+            
+            <ul id='navlinks' class="navbar-nav">
+              <li class="nav-item">
+                <a id='active-navlinks' class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a id='active-navlinks' class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a id='active-navlinks' class="nav-link" href="#">Link</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="row jumbotron" id='welcomeSlogan'>
+          <div class="col-6">
+            <h1 id='jumboHeading' class="display-4">We Help <br> Businesses </br> Evolve</h1>
+            <a id='learnMore' class="btn btn-light btn-primary btn-lg" href="#" role="button">Learn more</a>
+          </div>
+          <div class="col-6" id='background'>
+            <img src="./Assets/16544_base.png" class="mh-400 mw-400" width='400' height='400' alt="">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h1 id="serviceHeading">We assist the Entrepreneurs <br> in building their revenue stream <br> by our successful training system.</h1>
+        <div id='about' class="row">
+          <img class="col-5" src="./Assets/3372238.png" class="mw-550 mh-300" width='550' height="300" alt="">
+          <p class="col-sm align-self-center">BOLDCOMPASS is the Best Company to assist the Entrepreneurs to grow. It is the one and only company for the trainings to the entrepreneurs which will help and assist the entrepreneurs to grow.</p>
+        </div>
+      </div>
+      <!-- Our Services Section Start -->
+      <div id='services' class="container">
+        <h2>Our Services</h2>
+        <div id="cards" class="card mb-3" style="max-width: 100%;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="./Assets/2407981.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8 align-self-center">
+              <div class="card-body">
+                <h5 class="card-title">Revenue Sharing Model with the Entrepreneurs</h5>
+                <p class="card-text">BOLDCOMPASS provides a very good Revenue Share of 10% on every transaction or business which happens through the Franchise Business. BOLDCOMPASS provides Commission Percentage on every Conversion which happens with Franchise</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cards" class="card mb-3" style="max-width: 100%;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="./Assets/2910748.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8 align-self-center">
+              <div class="card-body">
+                <h5 class="card-title">AEPS Payment System for The Small Entrepreneurs</h5>
+                <p class="card-text">BOLDCOMPASS is coming up with the AEPS (Aadhaar Enabled Payment System) for the Small Entrepreneurs. AEPS allows the Online interoperable financial transactions at Micro ATM and Point of Sale (Pos) terminal.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Our Services Section End  -->
+      <!--  -->
+      <!-- Join Us Section Start  -->
+      <div id="joinUs">
+        <h1>Join Us</h1>
+        <div class="container">
+          <div class="card-deck">
+            <div class="card">
+              <img  id='imgs' src="./Assets/model2.png" class="mh-380" height="380" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#" class="btn btn-outline-dark">
+                  <h5>Join Bold Compass Frachise Business Model</h5>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <img id="imgs" src="./Assets/model1.png" class="mh-380" height="380" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#" class="btn btn-outline-dark">
+                  <h5>Join Bold Compass Frachise Business Model</h5>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <img id="imgs" src="./Assets/model3.png" class="mh-380" height="380" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#" class="btn btn-outline-dark d-flex">
+                  <h5>Join Bold Compass Frachise Business Model</h5>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Join Us Section End  -->
+      <!--  -->
+      <!-- Footer Start  -->
+      <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-sm">
+              <p>Corporate Address:-<br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit quis dignissimos laboriosam ex. Dolorum, consequatur repudiandae sed facilis officiis odio suscipit, fuga non quam eius ipsam! Veniam, excepturi voluptate!</p>
+            </div>
+            <div class="col-sm">
+              <p>Contact Number:- <br> XXXXX-XXXXX</p>
+            </div>
+            <div class="col-sm">
+              <p>Contact Email:-<br>
+                admin@admin.com
+              </p>
+            </div>
+          </div>
+          <small>Copyright &copy; BoldCompass</small>
+        </div>
+      </footer>
+  </body>
+</html>
