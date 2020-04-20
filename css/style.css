@@ -14,10 +14,8 @@ body {
 #navlinks {
     margin-right: 5rem;
 }
-#deactive {
-    color: #e4a30b;
-    text-decoration: none;
-    margin-right: 10rem;
+#Logo {
+    margin-left: 5rem;
 }
 #active-navlinks {
     margin-left: 1rem;
