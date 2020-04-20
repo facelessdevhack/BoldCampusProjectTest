@@ -18,7 +18,7 @@ body {
     margin-left: 5rem;
 }
 #active-navlinks {
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
     color: whitesmoke;
     font-size: 20px;
 }
@@ -47,6 +47,11 @@ body {
     border-radius: 20px;
     /* background-color: white; */
     margin-top: 2rem;
+}
+.navbar-collapse .navbar-nav>li>a:hover,
+.navbar-collapse .navbar-nav>li>a:focus{
+    padding-left: 1rem;
+    background-color: #620be4;
 }
 
 #serviceHeading {
